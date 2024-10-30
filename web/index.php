@@ -1,4 +1,8 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header("Access-Control-Allow-Headers: *");
+
 $a = $_GET['nomor'];
 $b = $_GET['opsi'];
 $c = $_GET['token'];
